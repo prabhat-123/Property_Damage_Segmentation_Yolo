@@ -12,13 +12,15 @@ Property_Damage_Segmentation_Yolo is a computer vision project that detects and 
 
 ---
 
-✅ How TO Run Tjis APP?
+✅ How TO Run This APP?
 Build the base image first:
+
     ```
     docker build -t crack-seg-base -f Dockerfile.base .
     ```
 
 Build and run services with Compose:
+
     ```
     docker compose up --build
     ```
